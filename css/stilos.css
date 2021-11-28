@@ -1,0 +1,32 @@
+/*div{
+    background-color: rgb(24, 24, 226);
+    width: 100px;
+    height: 100px;
+
+}*/
+header {
+    display: flex;
+    justify-content: space-between;
+    background: papayawhip;
+    padding: 15px;
+}
+.header-child {
+    background: #ff9696;
+    padding: 5px;
+}
+a{
+    color: rgb(98, 42, 150);
+}
+.container{
+    display: flex;
+    background: papayawhip;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+}
+.item{
+    width: 30px;
+    height: 30px;
+    background-color: coral;
+}
