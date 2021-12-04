@@ -1,0 +1,17 @@
+p{
+    background-color: blueviolet;
+    color: darkorchid;
+}
+
+p:hover{
+    background-color: black;
+}
+p::first-letter{
+    color: hotpink;
+}
+p::after{
+    content: "😎 ";
+}
+::placeholder{
+    color: darkmagenta ;
+}
